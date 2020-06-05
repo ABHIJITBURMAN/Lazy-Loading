@@ -30,7 +30,7 @@ const handleIntersect = (entries)=> {
         
       console.warn("something is intersecting with the viewport");
     //   Repetative Load from Fake REST API
-        console.log(k);
+//         console.log(k);
         fetchData();
         
     }
@@ -39,7 +39,7 @@ const fetchData = ()=>{
     if(k==120){
         k=10;
     }
-    console.log(url);
+//     console.log(url);
     axios.get(`${url}?_start=0&_limit=${k}`)
     .then((res)=>{
         let datas = [];
