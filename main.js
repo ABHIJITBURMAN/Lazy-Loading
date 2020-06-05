@@ -30,7 +30,9 @@ const handleIntersect = (entries)=> {
         
       console.warn("something is intersecting with the viewport");
     //   Repetative Load from Fake REST API
+        console.log(k);
         fetchData();
+        
     }
   }
 const fetchData = ()=>{
