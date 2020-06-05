@@ -1,6 +1,6 @@
 
 // API LINK
-const url = `http://jsonplaceholder.typicode.com/posts`;
+const url = `https://jsonplaceholder.typicode.com/posts`;
 
 //counter veriable
 let k=10;
