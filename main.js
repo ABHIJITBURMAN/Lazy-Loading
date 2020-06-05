@@ -37,7 +37,7 @@ const fetchData = ()=>{
     if(k==120){
         k=10;
     }
-    
+    console.log(url);
     axios.get(`${url}?_start=0&_limit=${k}`)
     .then((res)=>{
         let datas = [];
