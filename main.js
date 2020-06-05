@@ -3,7 +3,7 @@
 const url = `https://jsonplaceholder.typicode.com/posts`;
 
 //counter veriable
-let k=10;
+let k=0;
 
 let parent = document.getElementById('main-body');
 let footer = document.getElementById('logo');
